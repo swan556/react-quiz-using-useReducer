@@ -1,8 +1,7 @@
-import { useReducer, useState } from "react";
+import { useReducer } from "react";
 
 function reducer(state, action) {
   console.log(state, action);
-  // return { count: 0, step: 1 };
 
   switch (action.type) {
     case "dec":
